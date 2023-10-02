@@ -32,8 +32,3 @@ Mutation {
 `;
 
 module.exports = typeDefs;
-
-
-
-
-`
