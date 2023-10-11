@@ -38,34 +38,37 @@ const resolvers = {
   //remove book
   
   removeBook: async (parent, { bookId }, context) => {
-    if (context.book) {
-      const book = await Book.findOneAndDelete({
-        _id: bookId,
-        bookAuthor: context.book.authors,
-      });
-
-      await book.findOneAndUpdate(
-        { _id: context.book._id },
-        { $pull: { books: book._id } }
+    if (context.user) {
+      const user = await User.findOneAndUpdate(
+        { _id: context.user._id },
+        { $pull: { savedBooks:  { bookId } } },
+        { new: true }
       );
-      return book;
+      return user;
     }
     throw AuthenticationError;
   },
 
   //add book
-    saveBook: async (parent, { bookId }, context) => {
-        if (context.book) {
-        const book = await Book.create({
-            bookId,
-            bookAuthor: context.book.authors,
-        });
-    
-        await book.findOneAndUpdate(
-            { _id: context.book._id },
-            { $pull: { books: book._id } }
-        );
-        return book;
+    saveBook: async (parent, { authors, description, title, bookId, image, link }, context) => {
+        if (context.user) {
+          const user = await User.findOneAndUpdate(
+            { _id: context.user._id },
+            {
+              $addToSet: {
+                savedBooks: {
+                  authors,
+                  description,
+                  title,
+                  bookId,
+                  image,
+                  link,
+                },
+              },
+            },
+            { new: true }
+          );
+          return user;
         }
         throw AuthenticationError;
     },
