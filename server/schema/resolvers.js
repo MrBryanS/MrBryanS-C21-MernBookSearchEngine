@@ -14,7 +14,9 @@ const resolvers = {
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
+      console.log(user);
       const token = signToken(user);
+      console.log(token);
       return { token, user };
     },
     login: async (parent, { email, password }) => {
@@ -34,42 +36,49 @@ const resolvers = {
 
       return { token, user };
     },
-  },
-  //remove book
-  
-  removeBook: async (parent, { bookId }, context) => {
-    if (context.user) {
-      const user = await User.findOneAndUpdate(
-        { _id: context.user._id },
-        { $pull: { savedBooks:  { bookId } } },
-        { new: true }
-      );
-      return user;
-    }
-    throw AuthenticationError;
-  },
 
-  //add book
-    saveBook: async (parent, { authors, description, title, bookId, image, link }, context) => {
-        if (context.user) {
-          const user = await User.findOneAndUpdate(
-            { _id: context.user._id },
-            {
-              $addToSet: {
-                savedBooks: {
-                  authors,
-                  description,
-                  title,
-                  bookId,
-                  image,
-                  link,
-                },
+    //remove book
+
+    removeBook: async (parent, { bookId }, context) => {
+      if (context.user) {
+        const user = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $pull: { savedBooks: { bookId } } },
+          { new: true }
+        );
+        return user;
+      }
+      throw AuthenticationError;
+    },
+
+    //add book
+    saveBook: async (
+      parent,
+      { authors, description, title, bookId, image, link },
+      context
+    ) => {
+      if (context.user) {
+        const user = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          {
+            $addToSet: {
+              savedBooks: {
+                authors,
+                description,
+                title,
+                bookId,
+                image,
+                link,
               },
             },
-            { new: true }
-          );
-          return user;
-        }
-        throw AuthenticationError;
+          },
+          { new: true }
+        );
+        return user;
+      }
+      throw AuthenticationError;
     },
+  },
 };
+
+module.exports = resolvers;
