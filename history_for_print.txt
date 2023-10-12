@@ -1,0 +1,501 @@
+   31  ls
+   32  ls -al
+   33  cd
+   34  cd users
+   35  cd ls -al
+   36  cd ~
+   37  ls -al
+   38  help
+   39  cd ~
+   40  ls -al
+   41  cd .git
+   42  cd ~
+   43  cd .git
+   44  md first-day
+   45  ?
+   46  help
+   47  mkdir
+   48  mkdir first-day
+   49  cd first-day
+   50  touch
+   51  touch /help
+   52  touch ?
+   53  touch help.txt
+   54  dir
+   55  dir
+   56  ssh -T git@github.com
+   57  [200~$ ssh -T
+   58  ssh -t git@git.bootcampcontent.com
+   59  ssh -T git@git.bootcampcontent.com
+   60  cd desktop
+   61  ls 
+   62  ls -al
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd user
+   68  cd users
+   69  cd bryan
+   70  cd desktop
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd bryan
+   75  mkdir bootcamp
+   76  cd bootcamp
+   77  git clone git@git.bootcampcontent.com:University-of-Minnesota/UofM-VIRT-FSF-PT-04-2023-U-LOLC.git
+   78  cd UofM-VIRT-FSF-PT-04-2023-U-LOLC/
+   79  code .
+   80  start code .
+   81  start code
+   82  code .
+   83  code .
+   84  cd users
+   85  cd ..
+   86  cd bryan
+   87  cd bootcamp
+   88  cd UofM-VIRT-FSF-PT-04-2023-U-LOLC/01-HTML-Git-CSS/
+   89  code .
+   90  git
+   91  git help
+   92  +
+   93  repo
+   94  repository 
+   95  git clone
+   96  git status
+   97  git pull 
+   98  ls
+   99  code .
+  100  clone git@github.com:MrBryanS/horizon-refactor.git
+  101  clone help
+  102  clone ?
+  103  clone git@github.com:MrBryanS/horizon-refactor
+  104  git clone git@github.com:MrBryanS/horizon-refactor
+  105  cd horizon-refactor/
+  106  code .
+  107  ls -al ~/.ssh
+  108  cd ~/.ssh
+  109  cat id_rsa.pub
+  110  cd ~/.ssh
+  111  https://github.com/settings/ssh/new
+  112  git man-log
+  113  man git-log
+  114  man
+  115  git help log
+  116  cd ..
+  117  cd bryan
+  118  cd bootcammp
+  119  cd .
+  120  dir
+  121  ls
+  122  cd bootcamp
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd hello-world-23200502-0135/
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd hello-world/
+  131  ls
+  132  cd ..
+  133  cd ..
+  134  ls
+  135  cd bootcamp
+  136  cd hello-world/
+  137  ls
+  138  cd ..
+  139  cd  bryan
+  140  cd bootcamp
+  141  LS
+  142  CD UofM-VIRT-FSF-PT-04-2023-U-LOLC/
+  143  cd UofM-VIRT-FSF-PT-04-2023-U-LOLC/
+  144  git pull
+  145  ls
+  146  dir
+  147  cd ..
+  148  dir
+  149  cd Code-Refactor/
+  150  dir
+  151  ls
+  152  ls help
+  153  help ls
+  154  ls /help
+  155  help -ls
+  156  help -ls
+  157  help - config
+  158  help -config
+  159  man -config
+  160  man -k confit
+  161  man -k config
+  162  info config
+  163  info -config
+  164  config -info
+  165  git add help
+  166  git help add
+  167  ls
+  168  cd bootcamp/
+  169  cd Horiseon-Code-Refactor/
+  170  git init
+  171  git add
+  172  git add .
+  173  git commit -m "Initial commit"
+  174  ls
+  175  ls -ah
+  176  git status
+  177  git config --global user.email bryanstauning@gmail.com
+  178  git config --global user.name "Bryan Stauning"
+  179  git status
+  180  ls
+  181  git status
+  182  clear
+  183  git status
+  184  git committ -m "Initial Commit: Load Files and Folders Provided"
+  185  git commit -m "Initial Commit: Load Files and Folders Provided"
+  186  git commit . -m "Initial Commit: Load Files and Folders Provided"
+  187  git commit * -m "Initial Commit: Load Files and Folders Provided"
+  188  commit help
+  189  git commit help
+  190  commit help
+  191  commit -help
+  192  commit -help
+  193  help commit
+  194  man -k commit
+  195  help
+  196  help help
+  197  git help config
+  198  ls
+  199  ls -ah
+  200  cd users
+  201  cd bryan
+  202  cd .
+  203  ls
+  204  cd bootcamp
+  205  ls
+  206  mkdir SCO-Code-Refactor
+  207  cd SCO-Code-Refactor/
+  208  ls
+  209  ls -ah
+  210  git init
+  211  git add README.md
+  212  LS -AH
+  213  git branch -M main
+  214  git remote add origin git@github.com:MrBryanS/SCO-Code-Refactor.git
+  215  git push -u origin main
+  216  [200~git push -u origin main~
+  217  git remote add origin git@github.com:MrBryanS/SCO-Code-Refactor.git
+  218  cd .
+  219  cd bootcamp
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd Horiseon-Code-Refactor/
+  224  ls
+  225  cd bootcamp
+  226  cd Code-Refactor-Horiseon/
+  227  git init .
+  228  ls -ah
+  229  git add .
+  230  cd
+  231  cd bootcamp
+  232  cd Code-Refactor-Horiseon/
+  233  ls -ah
+  234  git status
+  235  git config --global user.name "Bryan Stauning"
+  236  git config --global user.email "bryanstauning@gmail.com"
+  237  git config --global default branch main
+  238  git config --global init.default branch main
+  239  clear
+  240  status
+  241  git status
+  242  git commit -m "initial commit of files to track"
+  243  $ git commit -m "initial commit of files to track"clear
+  244  clear
+  245  clear
+  246  git remote add origin git@github.com:MrBryanS/Code-Refactor-Horiseon.git
+  247  git branch -M main
+  248  git push -u origin main
+  249  git branch -M main
+  250  git push -u origin main
+  251  cd Code-Refactor-Horiseon-Rev01/
+  252  cd 
+  253  dir
+  254  cd bootcamp
+  255  dir
+  256  cd Code-Refactor-Horiseon-REV01/
+  257  git init .
+  258  git add .
+  259  git config --global user.name "Bryan Stauning"
+  260  git config --global user.email "bryanstauning@gmail.com"
+  261  git config --global init.default branch main
+  262  $ git commit -m "initial commit of files to track"
+  263  git commit -m "initial commit of files to track"
+  264  git status
+  265  git add .
+  266  git commit -m "initial commit of files to track"
+  267  dir
+  268  git commit$ git commit
+  269  ls -ah
+  270  git add .
+  271  $ git commit
+  272  git commit
+  273  git commit -m "Initial commit of files to track"
+  274  git remote add origin git@github.com:MrBryanS/Code-Refactor-Horiseon-REV01.git
+  275  git branch -M main
+  276  git push -u origin main
+  277  git status
+  278  git status
+  279  git commit -m"Adding Art and fix errors in .css"
+  280  git push
+  281  git push 
+  282  select main; git push
+  283  exit
+  284  git status
+  285  node index.js
+  286  node index.js
+  287  node index.js
+  288  npm inst 
+  289  npm inst -y
+  290  exit
+  291  exit
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  ls
+  298  git init
+  299  git add -A
+  300  ls
+  301  checkout 
+  302  quit
+  303  exit
+  304  heroku login
+  305  heroku open
+  306  heroku open -a
+  307  heroku logs --tail
+  308  heroku run bash
+  309  exit
+  310  exit
+  311  exit
+  312  node jconstructor.js
+  313  ersonClassInstance.getDetails() ersonClassInstance.getDetails()
+  314  ersonClassInstance.getDetails() ersonClassInstance.getDetails()
+  315  node jconstructor.js
+  316  next
+  317  exit
+  318  npm start
+  319  node server.js
+  320  exit
+  321  cd Unsolved/
+  322  npm install
+  323  mysql -u root -p
+  324  exit;
+  325  git pull
+  326  git pull
+  327  git pull
+  328  ls
+  329  git add .
+  330  git status
+  331  git commit -m"test this"
+  332  git commit -m"test this"
+  333  git pull
+  334  exit
+  335  git checkout main
+  336  git pull
+  337  npm install
+  338  npm run seed
+  339  node server.js
+  340  git checkout -b seedFix
+  341  npm run seed
+  342  npm run seed
+  343  npm run seed1
+  344  npm run seed
+  345  mysql -u password -p
+  346  mysql -u password -p
+  347  mysql -u password -p
+  348  mysql -u password -p
+  349  exit
+  350  mysql -u root -[
+  351  mysql -u root -p
+  352  node seeds/seed.js
+  353  git status
+  354  git add .[B
+  355  git commit -m"adding 'routineDescription' to rountineData.json and rounttineData.json' 
+  356  git status
+  357  git add .
+  358  git status
+  359  git commit -m"adding 'routineDescription' to rountineData.json and rounttineData.json" 
+  360  git push -u origin addRoutineDesc
+  361  cit checkout main
+  362  git checkout main
+  363  cd addRoutineDesc
+  364  npm install
+  365  node server.js
+  366  esxiht
+  367  exiut
+  368  exit
+  369  mkdir shell
+  370  cd shell
+  371  code .
+  372  touch hello.sh
+  373  ls
+  374  cd ..
+  375  ls
+  376  ls -a
+  377  code netrc
+  378  ls
+  379  ls .bashrc
+  380  hello
+  381  ls
+  382  code .bashrc
+  383  git status
+  384  git push heroku main:main
+  385  heroku logs --tail
+  386  node server.js
+  387  node server.js
+  388  git status
+  389  git add .
+  390  git commit -m"remove console.logs is this why heroku will not link"
+  391  git push
+  392  git push heroku main:main
+  393  heroku logs --tail
+  394  heroku local
+  395  node server.js
+  396  git add .
+  397  git commit -m"change port from 3001 to 5000 which is the port opened with command 
+  398  xxx;
+  399  exitr
+  400  dquit
+  401  quit
+  402  byy
+  403  git status
+  404  git restore
+  405  git restore db/store.js
+  406  git status
+  407  quit
+  408  exit
+  409  thjis 
+  410  code test.md
+  411  exit
+  412  git status
+  413  npm start
+  414  npm install gh-pages --save-dev
+  415  npm run build
+  416  npm run start
+  417  git status
+  418  git add .
+  419  git commit =m"npm install gh-pages --save-dev - to allow deploy from github
+  420  git commit =m"npm install gh-pages --save-dev - to allow deploy from github"
+  421  ;
+  422  exit
+  423  bye
+  424  git commit =m"npm install gh-pages --save-dev - to allow deploy from github"
+  425  git commit -m"npm install gh-pages --save-dev - to allow deploy from github"
+  426  git push
+  427  npm run start
+  428  exit
+  429  checkout -B bryan
+  430  git checkout branch -bryan
+  431  git checkout
+  432  quit
+  433  exit
+  434  npm run server
+  435  git add .
+  436  git init -y
+  437  git add .
+  438  ls
+  439  git init -y
+  440  git init 
+  441  git add .
+  442  git commit -m"start a version history"
+  443  git set origin main
+  444  git reset origin main
+  445  git reset 
+  446  git set origin main
+  447  ls .git
+  448  git init -y
+  449  git init 
+  450  git commit -m"start a version history"
+  451  git add .
+  452  git commit -m"start a version history"
+  453  cd branch -M main
+  454  git branch -M main
+  455  git add .
+  456  git status
+  457  clear
+  458  quit
+  459  exit
+  460  npm i bcrypt
+  461  npm run develop
+  462  cd ..
+  463  npm run devlop
+  464  npm run develop
+  465  npm run develop
+  466  git add .
+  467  git commit -m"fix backend issues"
+  468  git push
+  469  git add .
+  470  git commit -m"edits to resolvers.js"
+  471  git push
+  472  npm run develop
+  473  cd client
+  474  npm install graphql 
+  475  npm install @apollo/client
+  476  git add .
+  477  git commit -m"install graphql @apollo/client in client folder"
+  478  git push
+  479  git add .
+  480  git commit -m"change routes from /api ti graphql in vite.config.js"
+  481  git push
+  482  git add .
+  483  git commit -m"configure App.js using activity 21 as a guide"
+  484  git push
+  485  cd ..
+  486  npm run develop
+  487  git add .
+  488  git commit -m"added utils\mutations.js and queries.js"
+  489  git push
+  490  npm run develop
+  491  npm run develop
+  492  git add .
+  493  git commit -m"Connected backend and front end - signup is working"
+  494  git push
+  495  git remomte -v
+  496  git remote -v
+  497  npm run seed
+  498  cd server
+  499  npm run seed
+  500  npm run seeds
+  501  npm seed
+  502  npm run seed
+  503  git add -A
+  504  git commit -m "
+git commit -m "Pushing to Heroku"
+  505  git commit -m"Pushing to Heroku"
+  506  git push heroku main
+  507  heroku login
+  508  heroku logs --tail
+  509  git push heroku main
+  510  git add -A heroku
+  511* 
+  512  git push heroku main
+  513  heroku logs --tail
+  514  heroku logs --tail
+  515  git push heroku main
+  516  heroku logs --tail
+  517  cd client
+  518  npm run build
+  519  git add .
+  520  git commit -m"server.js line 34 ../client/dist"
+  521  git push
+  522  cd ..
+  523  git add .
+  524  git commit -m"server.js line 34 ../client/dist"
+  525  git push
+  526  git push heroku main
+  527  heroku open
+  528  git add .
+  529  git commit -m"Heroku deploy works"
+  530  history > history_for_print.txt
